@@ -49,7 +49,8 @@ int main(int argc, char *argv[])
     quint8 playerCount = 0;
     quint8 checkGamePlayerNumber;
 
-    QString currentPath = QCoreApplication::applicationDirPath();
+    //QString currentPath = QCoreApplication::applicationDirPath();
+    QString currentPath = QDir::currentPath();
     QString newPath;
     QDir currentPathDir;
     QString fileAndPath;
